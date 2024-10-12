@@ -11,3 +11,4 @@ cssparser = "0.26"
 gdk = "*"
 serde = { version = "1", features = ["derive"] }
 glib = "0.18"
+regex = "1.11.0"
