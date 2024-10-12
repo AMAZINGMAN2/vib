@@ -1,0 +1,13 @@
+[package]
+name = "vib"
+version = "0.1.0"
+edition = "2021"
+[dependencies]
+gtk = "*"
+webkit2gtk = "*"
+reqwest = { version = "0.11", features = ["blocking", "json"] }
+tokio = { version = "1", features = ["full"] }
+cssparser = "0.26"
+gdk = "*"
+serde = { version = "1", features = ["derive"] }
+glib = "0.18"
